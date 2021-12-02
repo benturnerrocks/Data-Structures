@@ -1,0 +1,9 @@
+We discussed the PopulationGrowth top 10. I (Ben) thought it was interesting to see where countries I had originally thought would be in the top 10 placed instead of the top.
+It is also interesting to see that renewable energy does not correlate with access to electricity. I would have thought that the higher percentage of renewable energy, the more the country would have access to electricity. I guess it makes sense that this is not the case since most countries that have complete access to electricity have so due to fossil fuels.
+I would like to investigate further the relationships between renewable energy and other factors and see how each country's use of this energy changes other aspects of the country (improves or hinders things)
+
+I (John) also thought the results of some of these data were pretty interesting, but found many of the results unremarkable (or in line with what I had expected). For example, I would have expected average annual population growth to be highest in countries that are less developed (due to less access to birth control and lower investment cost per child to turn them into a useful human), and that was exactly the case. Something that I was surprised by was the renewable energy results.
+
+I would have expected poorer countries mostly reliant on hydroelectricity to be at the top, developed countries with burgeoning solar/wind industries in the middle, and developing countries that are making heavy use of coal/gas/oil/etc. to be at the bottom. But the actual split isn't so nice and neat: apparently South Korea uses almost no renewables (neither does Japan).
+
+Seems like development isn't really that strongly correlated to renewable energy use... I have a few ideas for why that might be (trade? energy demand? also, is this tracking energy use in the country? what about exports/imports?), but I'm not entirely sure precisely why. 

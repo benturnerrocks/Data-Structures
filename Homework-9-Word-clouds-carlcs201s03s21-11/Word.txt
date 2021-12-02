@@ -1,0 +1,5 @@
+Nodes: 16
+Word count: and 2, others 1
+Nodes if simple is deleted: 12
+
+Lorem lore and sit simple and

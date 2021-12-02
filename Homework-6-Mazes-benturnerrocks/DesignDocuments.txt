@@ -1,0 +1,5 @@
+Load method:
+We can begin by loading the file.
+To do this we need to look at the format of the file. The first three lines will always be the same format, no matter the type of maze created. Therefore we want to get these three lines in succession and apply them to their respective instance variables.
+Once we have gotten through the first three lines, we want to loop through the rest of the lines (which are the rows) and create a maze square for every character in each line (which are each a column). We can make MazeSquare take in that character (aka the information about the square) as a parameter, as well as the row and column of the square, which will be the step we are at in the inner and outer loops. We will then store this object in an ArrayList of type MazeSquare
+to test for compliance with format rules, we can install if and else statements to check if the file adheres to our standards. If not it will hit the else statements and return false

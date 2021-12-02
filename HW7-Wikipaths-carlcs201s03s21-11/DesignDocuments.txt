@@ -1,0 +1,27 @@
+Before you begin coding, please decide what instance variables to use in your class and how to search your graph. Write down your design ideas, and why they make sense, in DesignDocuments.txt.
+
+instance variables:
+some dictionaries to keep track of what vertices match with what article and to keep track of the paths we take so we can backtrack when we find the path
+
+- load method
+    - turns every line of articles.csv into a node
+    - turns every line of links.csv into an edge
+
+- findPath method
+    - breadth first search
+    - uses queue like algorithm 2 from activity - see below
+
+visitedList = empty list that will hold visited vertices
+vertexQueue = queue to hold vertices
+visitedList.add(originVertex);
+vertexQueue.add(originVertex);
+
+while (!vertexQueue.poll().equals(goal vertex)) {
+	frontVertex = vertexQueue.poll();
+	for each neighbor of frontVertex {
+    	if (neighbor is not visited) {
+        	visitedList.add(neighbor);
+        	vertexQueue.add(neighbor);
+    	}
+	}
+}

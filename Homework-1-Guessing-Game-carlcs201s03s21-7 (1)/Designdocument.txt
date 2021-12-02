@@ -1,0 +1,14 @@
+how do we ask for input from user? 
+
+What does it mean to create a new object of guessing game. is it not the same as starting a new game method?
+
+need a loop in play game so that the player can keep on guessing. 
+
+comparison statement to the 
+
+delete all of the lines that say no program here.
+
+Plan of action:
+creat an object that we can use to implement methods/data fields through
+make the methods do the program we want
+call the methods using the instance/object in the main method

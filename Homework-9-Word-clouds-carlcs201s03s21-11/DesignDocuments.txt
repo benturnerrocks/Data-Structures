@@ -1,0 +1,24 @@
+write pseudocode or step-by-step English for your recursive algorithm for incrementCount.
+
+     * Adds 1 to the existing count for word, or adds word to the WordCountMap
+     * with a count of 1 if it was not already present.
+     * Implementation must be recursive, not iterative.
+
+    call recursive method on substring (1, s.length() - 1)
+    if last letter and word doesn't already exist
+
+    helper method ot keep track of current spot in tree
+        takes in string and curnode
+
+When you get to decrementCount, you should also be sure to write pseudocode or step-by-step English before coding
+
+- assume that the tree contains word (check in method)
+- base case: no letters left in word, meaning that we have reached
+  the node whose count we want to decrement
+- if count >= 1, count--
+- if count == 1 and is decremented to 0, we need to see if there
+  are any unnecessary nodes to delete
+- when do we want to delete a node?
+    - if its count is zero and it has no children
+- for each node that fits those criteria, remove node from list of
+  children of parent node

@@ -1,0 +1,12 @@
+Country Name,Population (total in hundred thousands),Population growth (annual %),Urban population growth (annual %),CO2 emissions (metric tons per capita),Access to electricity (% of population),Renewable energy consumption (% of total final energy consumption),Terrestrial protected areas (% of total land area)
+A,1,11,1,1,11,7,8
+B,2,10,6,2,1,8,1
+C,3,9,10,8,5,9,3
+D,4,8,8,6,6,2,7
+E,5,7,3,3,8,3,9
+F,6,6,2,10,4,6,4
+G,7,5,4,7,10,4,5
+H,8,4,9,9,9,11,2
+I,9,3,5,11,3,1,6
+J,10,2,7,4,7,10,10
+K,11,1,11,5,2,5,11

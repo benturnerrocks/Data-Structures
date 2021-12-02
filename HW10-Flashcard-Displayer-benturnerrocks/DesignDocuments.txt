@@ -1,0 +1,8 @@
+for some node at index i,
+
+first child = 4i+1
+second child = 4i+2
+third child = 4i+3
+fourth child = 4i+4
+
+parent = (i-1)/4

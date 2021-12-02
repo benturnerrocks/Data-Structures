@@ -1,0 +1,11 @@
+hashCode0: every single word will be mapped to the same hashCode.
+The numberOfBuckets does not matter with this hashCode
+hashCode1: any words that have the same first letter will get the same hashCode
+The numberOfBuckets would only matter until we get past 26, since every word that has the same first letter will be mapped to the same bucket
+hashCode2: any words that contain the same letters but in a different order (tan and ant will have same code)
+The numberOfBuckets will matter since different combination of letters will find a new spot
+hashCode3: none will have the same hashcode (this is not true but I cannot see the case when two different words would map to the same bucket)
+The numberOfBuckets will matter since different combination of letters will find a new spot
+
+The Hound of the Baskervilles vs words:
+I would expect there to be some hashcodes that would have less collisions with one text rather than the other since the files differ in their content. The words.txt has a ton of alphabetically listed words that range drastically in word length (but can be pretty long) while the other text may have more filler words that could be shorter and might cause more collisions with certain hashcodes or something

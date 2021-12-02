@@ -1,0 +1,18 @@
+Instance variables:
+Node head (identifies the beginning of the list)
+int sizeOfList (makes it easy to get size quickly)
+comparator of class CountryComparator that we could use for multiple methods
+
+*did not use the following but thought about adding them before realizing they were unnecessary*
+Node tail (to keep track of last spot in list)
+int currentPosition (to keep track of the current position)
+
+add method:
+we want to first identify where we will be adding the new item, so run CountryComparator with the country we are adding vs each country in the list, and once we find the correct spot, we alter the next nodes of the preceding node and the node we are creating.
+
+resort method:
+we want to create a new sortedLinkedList that will take in the old nodes in the new sorted order
+we want to track the previous and current node of the new sortedLinkedList
+besides the first item (we just add it), for each item in old sortedLinkedList we will compare it with each item in new sortedLinkedList.
+If, according to the new indicator or sorting direction, we find the spot it is supposed to be in, we will make previous.next = getNode(i) and getNode(i).next = current.
+We would then reset previous and current, get the next item/node, and repeat.

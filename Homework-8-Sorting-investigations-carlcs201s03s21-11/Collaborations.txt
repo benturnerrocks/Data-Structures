@@ -1,0 +1,3 @@
+Collaborators: Ben Turner, Anna Halladay
+
+We did not collaborate with any other students on the assignment. We sometimes referred to the Javadocs for details on how to use certain methods.

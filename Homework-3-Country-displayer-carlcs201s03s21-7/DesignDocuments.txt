@@ -1,0 +1,43 @@
+BRAINSTORMING DESIGN FOR THE COUNTRY CLASS:
+Instance variables: one for each piece of information that is associated with the countries (non-static since it will be different for each instance/country)
+
+Methods: some to get each piece of information from a certain country and others to set those values if need be (call the method for a particular instance and get or set the information)
+
+Overall goal: we are taking in one or two of the indicators (population, popGrowth, CO2ouput, etc) from the commandline, sorting them in a specified way, from the data document.
+
+Command Line: 1 - location of data 2 - first indicator 3 - sorting method 4 - second indicator
+
+Expected Output: if only 1 indicator, we should get a text output of the countries sorted by the given way.
+
+if there are two indicators, we should get a graph of the top 10 countries based on sorting method given
+
+**sorting note** if value is same for given method of sorting, the country with the first alphabetical name
+
+INITIAL THOUGHTS ON SORTING:
+algorithm to sort: we could create boolean methods to test for greaterThan, lessThan, or maybe equalTo (could also possible do this in the loops, but it might be cleaner and more organized to do methods...?) we need to first created an unsorted list of only the values we want (i.e. the population of each country) we would then use 2 FOR loops; the first to run through the list of data and get the next country and the second to compare with the list we are adding it to and where to put it
+
+FINAL-ISH SORTING ALGORITHM:
+We mostly followed Anna's tip given in the doc for HW3. Here is a pseudocode outline that I wrote on paper:
+
+  for (Country i: countryList)
+    if (length of sorted country list = 0){
+      add country i to sortedCountryList
+    }
+    else{
+      for (Country j in sorted country list)
+      if i.(indicator) < j.(indicator)
+        put it in the sortedCountryList
+        break out of the for loop
+      
+      else if the indicator values are equal:
+        if country i comes before country j{
+          put it in the sortedCountryList and break out of the for loop
+         }
+        else 
+        {
+          do nothing
+        }
+    }
+
+FINALLY: John being worrisome
+Did we follow the List ADT implementation correctly? Not sure. Need to work through the material and check this later... oh well.
